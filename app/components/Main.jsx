@@ -4,7 +4,7 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <section className='w-full bg-[#b66087]'>
+    <section className='w-full'>
         <main className='mx-auto max-w-7xl pt-10 md:pt-6 lg:pt-10 '>
             {/* main-div */}
             <div className='w-full flex flex-col md:flex-row   pl-4 md:pl-6 '>
@@ -37,7 +37,11 @@ const Main = () => {
                 </div>
                 {/* second-div */}
                 <div className='w-full md:w-1/2 flex justify-center items-center px-6 md:px-4 lg:px-0 py-10 md:py-0'>
-                  <img src="./images/main-img.png" alt="main-img" />
+            
+                  <Image
+  src="/images/main-img.png"
+  alt="main-image"
+  width={800} height={600}/>
 
                 </div>
 

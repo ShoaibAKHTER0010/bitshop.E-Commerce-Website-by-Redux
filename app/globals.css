@@ -2,3 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+.image-1 {
+    border-top-right-radius: 20%;  
+    border-bottom-left-radius: 20%; 
+    overflow: hidden; 
+   
+  }
+  #fltr{
+    filter: brightness(0.5); /* Darkens the image */
+  transition: filter 0.3s ease; /* Smooth transition to real color */
+  }
+
+  #fltr:hover{
+    filter: brightness(1); /* Reveals the image's true colors */
+  }
+
+
+  .image-2 {
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 30%; 
+    overflow: hidden; 
+  }
+  
