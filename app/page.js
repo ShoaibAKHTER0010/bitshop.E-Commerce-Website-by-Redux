@@ -1,5 +1,6 @@
 "use client"
 import Discover from "./components/Discover";
+import Gifts from "./components/Gifts";
 import  Main  from "./components/Main";
 import Navbar from "./components/Navbar";
 import Wedding from "./components/Wedding";
@@ -14,6 +15,7 @@ export default function Home() {
   <Wedding/>
   <Winter/>
   <Discover/>
+  <Gifts/>
     </main>
   );
 }
