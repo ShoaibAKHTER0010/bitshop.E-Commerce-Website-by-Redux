@@ -7,6 +7,7 @@ import Wedding from "./components/Wedding";
 import Winter from "./components/Winter";
 
 
+
 export default function Home() {
   return (
     <main className="bg-[#b66087]">
@@ -16,6 +17,8 @@ export default function Home() {
   <Winter/>
   <Discover/>
   <Gifts/>
+
+  
     </main>
   );
 }

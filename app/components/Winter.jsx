@@ -35,7 +35,7 @@ const Winter = () => {
             </div>
             
             {/* child-2  */}
-            <div className='w-full md:w-1/2 image-2' id='fltr' style={{
+            <div className='w-full md:w-1/2 image-2' id='fltr'  style={{
       backgroundImage: 'url("/images/winter/bg-2.jpg")',
       backgroundSize: 'cover', 
       backgroundPosition: 'center',

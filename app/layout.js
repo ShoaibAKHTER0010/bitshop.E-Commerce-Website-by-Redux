@@ -1,3 +1,5 @@
+import { provider } from "react-redux";
+import 'semantic-ui-css/semantic.min.css';
 import { Manrope } from "next/font/google";
 import "./globals.css";
 

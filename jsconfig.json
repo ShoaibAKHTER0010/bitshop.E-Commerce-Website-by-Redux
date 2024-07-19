@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    "types": ["jest"]  // Add this line if using Jest
+    // "types": ["mocha"]  // Uncomment this line if using Mocha
   }
 }
