@@ -5,7 +5,7 @@ const Winter = () => {
     <section className='w-full py-10'>
         <main className='max-w-7xl mx-auto'>
             {/* heading section */}
-            <div className="w-full text-white text-center text-[45px] font-extrabold font-['Manrope'] leading-[50px] py-16">
+            <div className="w-full text-white text-center text-[35px] md:text-[45px] font-extrabold font-['Manrope'] leading-[35px] md:leading-[50px] py-16">
            <h2>THE <br /> <span className='inline-flex text-[#60b690]'>WINTER</span> COLLECTION</h2>
             </div>
 
@@ -13,9 +13,9 @@ const Winter = () => {
             <div className='w-full flex flex-col gap-10'>
            
            {/* first-div////////////////////////////////////////////////////////// */}
-           <div className='flex flex-col md:flex-row gap-10 '>
+           <div className='flex flex-col md:flex-row gap-10 justify-center items-center px-6 md:px-0'>
             {/* child-1  */}
-            <div className='w-full md:w-1/2 image-1 ' id='fltr' style={{
+            <div className='w-full md:w-[500px] h-[300px] md:h-[350px] image-1 container ' id='fltr' style={{
       backgroundImage: 'url("/images/winter/bg-1.jpg")',
       backgroundSize: 'cover', 
       backgroundPosition: 'center',
@@ -24,7 +24,7 @@ const Winter = () => {
     
     }}>
         {/* sub-child-1 */}
-        <div className='w-1/2 px-6 py-12'>
+        <div className='w-1/2 px-6 py-12 text'>
           <h2 className="text-white text-[30px] font-extrabold font-['Manrope'] leading-[32.70px]">Women</h2>
           <p className=" text-white text-[15px] font-semibold font-['Manrope'] leading-relaxed tracking-tight py-6">Revamp your look with our contemporary mens fashion, where comfort meets style. Elevate your confidence, one outfit at a time.</p>
 
@@ -35,7 +35,7 @@ const Winter = () => {
             </div>
             
             {/* child-2  */}
-            <div className='w-full md:w-1/2 image-2' id='fltr'  style={{
+            <div className='w-full md:w-[500px] h-[300px] md:h-[350px] image-2 container' id='fltr'  style={{
       backgroundImage: 'url("/images/winter/bg-2.jpg")',
       backgroundSize: 'cover', 
       backgroundPosition: 'center',
@@ -44,7 +44,7 @@ const Winter = () => {
     
     }}>
         {/* sub-child-1 */}
-        <div className='w-1/2 px-6 py-12'>
+        <div className='w-1/2 px-6 py-12 text'>
           <h2 className="text-white text-[30px] font-extrabold font-['Manrope'] leading-[32.70px]">Children </h2>
           <p className=" text-white text-[15px] font-semibold font-['Manrope'] leading-relaxed tracking-tight py-6">Revamp your look with our contemporary mens fashion, where comfort meets style. Elevate your confidence, one outfit at a time.</p>
 
@@ -60,9 +60,9 @@ const Winter = () => {
 
  
            {/* second-div////////////////////////////////////////////////////////// */}
-           <div className='flex flex-col md:flex-row gap-10 '>
+           <div className='flex flex-col md:flex-row gap-10 justify-center items-center px-6 md:px-0 '>
             {/* child-1  */}
-            <div className='w-full md:w-1/2 image-2' id='fltr' style={{
+            <div className='w-full md:w-[500px] h-[300px] md:h-[350px] image-2 container' id='fltr' style={{
       backgroundImage: 'url("/images/winter/bg-3.jpg")',
       backgroundSize: 'cover', 
       backgroundPosition: 'center',
@@ -71,7 +71,7 @@ const Winter = () => {
     
     }}>
         {/* sub-child-1 */}
-        <div className='w-1/2 px-6 py-12'>
+        <div className='w-1/2 px-6 py-12 text'>
           <h2 className="text-white text-[30px] font-extrabold font-['Manrope'] leading-[32.70px]">Mens</h2>
           <p className=" text-white text-[15px] font-semibold font-['Manrope'] leading-relaxed tracking-tight py-6">Revamp your look with our contemporary mens fashion, where comfort meets style. Elevate your confidence, one outfit at a time.</p>
 
@@ -82,7 +82,7 @@ const Winter = () => {
             </div>
             
             {/* child-2  */}
-            <div className='w-full md:w-1/2 image-1' id='fltr' style={{
+            <div className='w-full md:w-[500px] h-[300px] md:h-[350px] image-1 container' id='fltr' style={{
       backgroundImage: 'url("/images/winter/bg-4.jpg")',
       backgroundSize: 'cover', 
       backgroundPosition: 'center',
@@ -91,7 +91,7 @@ const Winter = () => {
     
     }}>
         {/* sub-child-1 */}
-        <div className='w-1/2 px-6 py-12' >
+        <div className='w-1/2 px-6 py-12 text' >
           <h2 className="text-white text-[30px] font-extrabold font-['Manrope'] leading-[32.70px]">Couples</h2>
           <p className=" text-white text-[15px] font-semibold font-['Manrope'] leading-relaxed tracking-tight py-6">Revamp your look with our contemporary mens fashion, where comfort meets style. Elevate your confidence, one outfit at a time.</p>
 

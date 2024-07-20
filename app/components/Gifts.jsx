@@ -6,10 +6,10 @@ const Gifts = () => {
     <section className='w-full py-10'>
 
         
-      <main className='mx-auto max-w-7xl ' >
+      <main className='mx-auto max-w-7xl px-6 md:px-0 ' >
 
          {/* heading section */}
-         <div className="w-full text-white text-center text-[45px] font-extrabold font-['Manrope'] leading-[50px] py-16">
+         <div className="w-full text-white text-center text-[35px] md:text-[45px] font-extrabold font-['Manrope'] leading-[35px] md:leading-[50px] py-16">
            <h2> <span  className='block text-[#60b690]'>GIFTS</span>  FOR OUR CLIENTS</h2>
             </div>
            

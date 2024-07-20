@@ -26,7 +26,7 @@ const Navbar = () => {
                 </div>
 
                 <div className={`md:flex md:items-center md:pb-0 py-10 md:static absolute bg-[#a13b69] w-full md:w-auto pl-14 transition-all duration-500 ease-in-out ${open ? 'top-20 opacity-100' : 'top-[-400px] opacity-0 md:opacity-100 md:top-0'}`}>
-                    <ul className='md:flex gap-8'>
+                    <ul className='md:flex gap-10 justify-center items-center'>
                         {Links.map((link) => (
                             <li key={link.name} className="flex-wrap text-lg md:text-xs font-normal font-['Inter'] uppercase leading-[45px] md:leading-[15px] lg:leading-[35px] hover:border-t-2 hover:border-b-2 hover:border-white hover:translate-y-3 hover:transition-all duration-100 mb-0 md:mb-6">
                                 <a href={link.link} className='text-white transition ease-in-out hover:shadow-xl duration-200'>{link.name}</a>

@@ -7,7 +7,7 @@ const Main = () => {
     <section className='w-full'>
         <main className='mx-auto max-w-7xl pt-10 md:pt-6 lg:pt-10 '>
             {/* main-div */}
-            <div className='w-full flex flex-col md:flex-row   pl-4 md:pl-6 '>
+            <div className='w-full flex flex-col md:flex-row   pl-4 md:pl-0 '>
                 {/* first--div */}
                 <div className='w-full md:w-1/2 text-white py-6 md:py-10 lg:py-16 flex flex-col items-center md:items-start'>
                   {/* paragraph */}

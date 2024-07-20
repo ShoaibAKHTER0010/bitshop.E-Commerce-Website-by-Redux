@@ -9,7 +9,7 @@
    
   }
   #fltr{
-    filter: brightness(0.5); /* Darkens the image */
+    filter: brightness(1); /* Darkens the image */
   transition: filter 0.3s ease; /* Smooth transition to real color */
   }
 
@@ -26,3 +26,27 @@
   
 /* new style ////////////// */
 
+.container {
+ 
+  border: 1px solid #000;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.text {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 1.2em;
+  transition: top 1s;
+  padding: 60px;
+}
+
+.container:hover .text {
+  top: 0;
+}

@@ -8,14 +8,14 @@ const Wedding = () => {
         <main className='mx-auto max-w-7xl '>
            
             {/* heading section */}
-            <div className="w-full text-white text-center text-[45px] font-extrabold font-['Manrope'] leading-[50px] py-16">
+            <div className="w-full text-white text-center text-[35px] md:text-[45px] font-extrabold font-['Manrope'] leading-[35px] md:leading-[50px] py-16">
            <h2>THE <br /> <span className='inline-flex text-[#60b690]'>WEDDING</span> COLLECTION</h2>
             </div>
              {/* main--div */}
             <div className='w-full flex flex-col md:flex-row justify-center items-center gap-6 md:gap-14 bg-[#ac7e93] rounded-xl'>
 
                 {/* first-div */}
-                <div className='w-full flex justify-center items-center md:w-[30vw] ml-4 py-4'>
+                <div className='w-full flex justify-center items-center md:w-[30vw]  px-6 md:px-0  md:ml-4 py-4'>
                     <div>
                     <Image
   src="/images/wed/wed-3.jpg"
@@ -43,7 +43,7 @@ const Wedding = () => {
                     </div>
 
                    {/* image */}
-                    <div className='transition-transform duration-300 ease-in-out transform hover:scale-105 hover:translate-y-1 md:pl-0'>
+                    <div className='transition-transform duration-300 ease-in-out transform hover:scale-105 hover:translate-y-1 px-6 md:px-0'>
                     <Image
   src="/images/wed/wed-2.jpg"
   alt="image 2"

@@ -7,11 +7,11 @@ const Discover = () => {
     <section className='w-full py-10'>
         <main className='mx-auto max-w-7xl '>
             {/* heading section */}
-            <div className="w-full text-white text-center text-[45px] font-extrabold font-['Manrope'] leading-[50px] py-16">
+            <div className="w-full text-white text-center text-[35px] md:text-[45px] font-extrabold font-['Manrope'] leading-[35px] md:leading-[50px] py-16">
            <h2> <span  className='block text-[#60b690]'>DISCOVER</span>  NEW COLLECTION</h2>
             </div>
             {/* main-div */}
-            <div className='w-full flex flex-col md:flex-row gap-16 justify-center items-center'>
+            <div className='w-full flex flex-col md:flex-row gap-16 justify-center items-center px-6 md:px-0'>
             
             {/* first-div   */}
             <div className='transition-transform duration-300 ease-in-out transform hover:scale-105'>
