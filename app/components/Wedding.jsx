@@ -4,15 +4,15 @@ import React from 'react'
 
 const Wedding = () => {
   return (
-    <section className='w-full py-12'>
+    <section className='w-full py-6'>
         <main className='mx-auto max-w-7xl '>
            
             {/* heading section */}
-            <div className="w-full text-white text-center text-[35px] md:text-[45px] font-extrabold font-['Manrope'] leading-[35px] md:leading-[50px] py-16">
-           <h2>THE <br /> <span className='inline-flex text-[#60b690]'>WEDDING</span> COLLECTION</h2>
+            <div className="w-full text-[#4A3D2E] text-center text-[35px] md:text-[45px] font-extrabold font-['Manrope'] leading-[35px] md:leading-[50px] py-24">
+           <h2>THE <br />WEDDING COLLECTION</h2>
             </div>
              {/* main--div */}
-            <div className='w-full flex flex-col md:flex-row justify-center items-center gap-6 md:gap-14 bg-[#ac7e93] rounded-xl'>
+            <div className='w-full flex flex-col md:flex-row justify-center items-center gap-6 md:gap-14 bg-[#EFDCC7] rounded-xl'>
 
                 {/* first-div */}
                 <div className='w-full flex justify-center items-center md:w-[30vw]  px-6 md:px-0  md:ml-4 py-4'>
@@ -29,14 +29,14 @@ const Wedding = () => {
                 {/* second-div */}
                 <div className='w-full md:w-[40vw] flex flex-col-reverse md:flex-col md gap-4 justify-center items-center'>
                     {/* button side */}
-                <div className='w-full flex flex-col  gap-6 py-[4rem] bg-[#ac7e93] md:bg-[#b66087] rounded-b-xl -mt-0 md:-mt-20 px-10 md:px-4 '>
+                <div className='w-full flex flex-col  gap-6 py-[4rem] bg-[#EFDCC7] md:bg-white rounded-b-xl -mt-0 md:-mt-20 px-10 md:px-4 '>
                       {/* button--1 */}
-                    <button className=' text-white font-[Poppins] px-10 p-4 bg-[#a35377] rounded-full hover:border-gray-200 hover:border-2 hover:bg-[#ac7e93]
+                    <button className=' text-white font-[Poppins] px-10 p-4 bg-[#4A3D2E] rounded-full hover:border-black hover:border-2 
     transition-transform duration-300 ease-in-out transform hover:scale-75'>Shop Now
     </button>
 
       {/* button--2 */}
-      <button className=' text-white font-[Poppins] px-10 p-4  rounded-full border-gray-200 border-2 hover:bg-[#ac7e93]
+      <button className=' text-[#4A3D2E] hover:text-white font-[Poppins] px-10 p-4  rounded-full border-black border-2 hover:bg-[#4A3D2E]
     transition-transform duration-300 ease-in-out transform hover:scale-75 '>Explore Now
     </button>
 

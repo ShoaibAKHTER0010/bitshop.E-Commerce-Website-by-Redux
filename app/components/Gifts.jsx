@@ -3,14 +3,14 @@ import React from 'react'
 
 const Gifts = () => {
   return (
-    <section className='w-full py-10'>
+    <section className='w-full py-6'>
 
         
-      <main className='mx-auto max-w-7xl px-6 md:px-0 ' >
+      <main className='mx-auto max-w-7xl px-6 md:px-4 ' >
 
          {/* heading section */}
-         <div className="w-full text-white text-center text-[35px] md:text-[45px] font-extrabold font-['Manrope'] leading-[35px] md:leading-[50px] py-16">
-           <h2> <span  className='block text-[#60b690]'>GIFTS</span>  FOR OUR CLIENTS</h2>
+         <div className="w-full text-[#4A3D2E] text-center text-[35px] md:text-[45px] font-extrabold font-['Manrope'] leading-[35px] md:leading-[50px] py-16">
+           <h2> GIFT <br /> FOR OUR CLIENTS</h2>
             </div>
            
 
@@ -18,9 +18,9 @@ const Gifts = () => {
         <div className='w-full flex flex-col gap-4 md:gap-8 justify-center items-center' >
 
         {/*first -div */}
-        <div className='flex flex-col md:flex-row gap-4 md:gap-8 '>
+        <div className='flex flex-col md:flex-row gap-4 md:gap-14 '>
             {/* child-1  */}
-            <div className=''>
+            <div className='shadow-lg hover:shadow-xl'>
             <Image
   src="/images/bit/bit-1.PNG"
   alt="main-image"
@@ -28,7 +28,7 @@ const Gifts = () => {
             </div>
 
              {/* child-2  */}
-             <div className=''>
+             <div className='shadow-lg hover:shadow-xl'>
             <Image
   src="/images/bit/bit-3.PNG"
   alt="main-image"
@@ -38,9 +38,9 @@ const Gifts = () => {
         </div>
 
          {/*second -div */}
-         <div className='flex gap-4 md:gap-8 flex-col md:flex-row'>
+         <div className='flex gap-4 md:gap-6 flex-col md:flex-row'>
             {/* child-1  */}
-            <div className=''>
+            <div className='shadow-lg hover:shadow-xl'>
             <Image
   src="/images/bit/bit-2.PNG"
   alt="main-image"
@@ -48,7 +48,7 @@ const Gifts = () => {
             </div>
 
              {/* child-2  */}
-             <div className=''>
+             <div className='shadow-lg hover:shadow-xl'>
             <Image
   src="/images/bit/bit-5.PNG"
   alt="main-image"

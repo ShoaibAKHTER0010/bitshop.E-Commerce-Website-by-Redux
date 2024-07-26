@@ -1,6 +1,6 @@
 {
   "name": "my-project",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/font": "^14.2.5",
     "@reduxjs/toolkit": "^2.2.6",
     "ionicons": "^7.4.0",
     "next": "14.2.5",
