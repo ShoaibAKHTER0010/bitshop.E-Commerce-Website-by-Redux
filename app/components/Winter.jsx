@@ -6,6 +6,7 @@ const Winter = () => {
         <main className='max-w-7xl mx-auto'>
             {/* heading section */}
             <div className="w-full text-[#4A3D2E] text-center text-[35px] md:text-[45px] font-extrabold font-['Manrope'] leading-[35px] md:leading-[50px] py-16">
+              
            <h2>THE <br /> WINTER COLLECTION</h2>
             </div>
 

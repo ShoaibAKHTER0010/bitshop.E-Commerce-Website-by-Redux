@@ -7,7 +7,7 @@ const Main = () => {
     <section className='w-full'>
         <main className='mx-auto max-w-7xl pt-10 md:pt-6 lg:pt-10 '>
             {/* main-div */}
-            <div className='w-full flex flex-col md:flex-row   pl-4 md:pl-0 px-2 md:px-10'>
+            <div className='w-full flex flex-col md:flex-row px-3 md:px-8'>
                 {/* first--div */}
                 <div className='w-full md:w-1/2 text-white py-6 md:py-10 lg:py-16 flex flex-col items-center md:items-start'>
                   {/* paragraph */}
@@ -18,14 +18,14 @@ const Main = () => {
 
                     {/* button side */}
                     
-                    <div className='w-full flex flex-col md:flex-row gap-6 md:gap-12 pt-16 md:pt-10 pr-12 md:pr-0'>
+                    <div className='w-full flex flex-col md:flex-row gap-6 md:gap-12 pt-24  md:pt-10 pr-12 md:pr-0'>
                       {/* button--1 */}
-                    <button className=' text-white font-[Poppins] px-10 p-4 bg-[#4A3D2E] rounded-full hover:border-black hover:border-2 
-    transition-transform duration-200 ease-in-out transform hover:scale-105 ml-8 md:ml-0'>Explore Now
+                    <button className=' text-white font-[Poppins] px-12 md:px-10 lg:px-10 py-3  md:py-2 lg:py-3  bg-[#4A3D2E] rounded-full hover:border-black hover:border-2 
+    transition-transform duration-200 ease-in-out transform hover:scale-105 ml-8 md:ml-0 leading-8 md:leading-tight lg:leading-8'>Explore Now
     </button>
 
       {/* button--2 */}
-      <button className=' text-[#4A3D2E] font-[Poppins] px-10 p-4  rounded-full border-black border-2 hover:bg-[#4A3D2E] hover:text-white
+      <button className=' text-[#4A3D2E] font-[Poppins]  px-12 md:px-10 lg:px-10 py-3  md:py-2 lg:py-3 rounded-full border-black border-2 hover:bg-[#4A3D2E] hover:text-white
     transition-transform duration-200 ease-in-out transform hover:scale-105 ml-8 md:ml-0'>Contact us
     </button>
 
@@ -36,7 +36,7 @@ const Main = () => {
 
                 </div>
                 {/* second-div */}
-                <div className='w-full md:w-1/2 flex justify-center items-center px-6 md:px-4 lg:px-0 py-10 md:py-0'>
+                <div className='w-full md:w-1/2 flex justify-center py-10 md:py-0'>
             
                   <Image
   src="/images/main-img.png"

@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { removeItem } from '../../libs/cartSlice';
 import { clearCart } from '../../libs/cartSlice';
 import Link from 'next/link';
-import { Item } from 'semantic-ui-react';
+import Navbar from '../components/Navbar';
 
 const CartPage = () => {
   const cartItems = useSelector((state) => state.cart.items);
@@ -28,9 +28,10 @@ const CartPage = () => {
   };
 
   return (
-    <div className=" mx-auto py-8 px-4">
-      <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">Store Cart 🛒</h1>
-      <div>
+    <div className=" mx-auto  flex flex-col justify-center items-center h-[100%]">
+      <Navbar/>
+      <h1 className="text-4xl font-bold text-center text-gray-800 py-10">Store Cart 🛒</h1>
+      <div className='px-6'>
         {cartItems.length === 0 ? (
           <p className="text-center text-gray-600">Your cart is empty please select some items 😢</p>
         ) : (
@@ -68,7 +69,7 @@ const CartPage = () => {
           </button>
         </div>
       )}
-    <div className='flex justify-center items-center'>
+    <div className='flex justify-center items-center pb-4'>
     <button className=" text-white font-[Poppins] px-8 p-3 bg-[#4A3D2E] rounded-full hover:border-black hover:border-2 
     transition-transform duration-200 ease-in-out transform hover:scale-105text-center mt-10 md:mt-16 hover:shadow-2xl  ">
         <Link href="/" >

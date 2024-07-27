@@ -1,6 +1,7 @@
 // next.config.mjs
 export default {
   images: {
+    domains: ['placeimg.com'],
     remotePatterns: [
       {
         protocol: 'https',
@@ -10,3 +11,4 @@ export default {
     ],
   },
 };
+

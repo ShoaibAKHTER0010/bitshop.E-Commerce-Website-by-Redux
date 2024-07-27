@@ -3,13 +3,18 @@ import React from 'react'
 
 const Gifts = () => {
   return (
-    <section className='w-full py-6'>
+    <section className='w-full '>
 
         
       <main className='mx-auto max-w-7xl px-6 md:px-4 ' >
 
          {/* heading section */}
          <div className="w-full text-[#4A3D2E] text-center text-[35px] md:text-[45px] font-extrabold font-['Manrope'] leading-[35px] md:leading-[50px] py-16">
+
+         <div className="logo-2 w-[250px]">
+          
+                    <Image src="/images/bit/bit-logo-2.png" alt="logo" width={600} height={800} className=' transition-transform duration-300 ease-in-out transform hover:scale-105 w-[50px] md:w-[70px] h-[50px] md:h-[70px]' />
+                </div>
            <h2> GIFT <br /> FOR OUR CLIENTS</h2>
             </div>
            
@@ -60,8 +65,8 @@ const Gifts = () => {
 
          
         </div>
-        <div className='w-full text-center py-10'><h3 className="text-white text-[30px] font-extrabold font-['Manrope'] leading-[32.70px]">Expressing Our Gratitude with a Special Gift</h3>
-            <p className="text-white text-[15px] font-semibold font-['Manrope'] leading-relaxed py-4">This gift is a small symbol of our immense gratitude for your loyalty and trust.</p>
+        <div className='w-full text-center py-10'><h3 className="text-black text-[20px] md:text-[30px] font-extrabold font-['Manrope'] leading-[25px] md:leading-[32.70px]">Expressing Our Gratitude with a Special Gift</h3>
+            <p className="text-[#CDBA9F] ] text-[15px] font-semibold font-['Manrope'] leading-relaxed py-4">This gift is a small symbol of our immense gratitude for your loyalty and trust.</p>
             </div>
       </main>
     </section>

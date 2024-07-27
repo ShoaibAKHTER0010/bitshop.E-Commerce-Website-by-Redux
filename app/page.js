@@ -1,4 +1,6 @@
 "use client";
+import Clients from './components/Clients';
+import Deal from './components/Deal';
 import Discover from './components/Discover';
 import Gifts from './components/Gifts';
 import Main from './components/Main';
@@ -19,6 +21,8 @@ export default function Home() {
       <Winter />
       <Discover />
       <Gifts />
+      <Deal/>
+      <Clients/>
     
       
 
