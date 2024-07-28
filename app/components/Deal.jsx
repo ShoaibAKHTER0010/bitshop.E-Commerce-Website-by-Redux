@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Deal = () => {
   return (
-    <section className='w-full py-6'>
+    <section className='w-full py-16'>
         <main className='mx-auto max-w-7xl bg-[#EFDCC7] p-8 md:p-12 lg:p-16 rounded-2xl'>
             {/* main-div */}
             <div className='flex  flex-col-reverse md:flex-row gap-0 md:gap-20 lg:gap-28 xl:gap-36'>
