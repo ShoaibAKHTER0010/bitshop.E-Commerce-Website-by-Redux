@@ -1,8 +1,9 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Winter = () => {
   return (
-    <section className='w-full py-10'>
+    <section className='w-full py-10'id='winter'>
         <main className='max-w-7xl mx-auto'>
             {/* heading section */}
             <div className="w-full text-[#4A3D2E] text-center text-[35px] md:text-[45px] font-extrabold font-['Manrope'] leading-[35px] md:leading-[50px] py-16">
@@ -30,7 +31,7 @@ const Winter = () => {
           <p className=" text-white text-[15px] font-semibold font-['Manrope'] leading-relaxed tracking-tight py-6">Revamp your look with our contemporary mens fashion, where comfort meets style. Elevate your confidence, one outfit at a time.</p>
 
           <button className=' text-[#4A3D2E] hover:text-white font-[Poppins] px-6 p-2 mt-8  rounded-full border-black border-2 hover:border-white bg-white hover:bg-[#ac7e93]
-    transition-transform duration-300 ease-in-out transform hover:scale-110 '>Shop Now
+    transition-transform duration-300 ease-in-out transform hover:scale-110 '><Link href="/winter">Shop Now</Link>
     </button>
         </div>
             </div>
@@ -51,7 +52,7 @@ const Winter = () => {
 
         
           <button className=' text-[#4A3D2E] hover:text-white font-[Poppins] px-6 p-2 mt-8  rounded-full border-black border-2 hover:border-white bg-white hover:bg-[#ac7e93]
-    transition-transform duration-300 ease-in-out transform hover:scale-110 '>Shop Now
+    transition-transform duration-300 ease-in-out transform hover:scale-110 '><Link href="/winter">Shop Now</Link>
     </button>
         </div>
             </div>
@@ -79,7 +80,7 @@ const Winter = () => {
 
         
           <button className=' text-[#4A3D2E] hover:text-white font-[Poppins] px-6 p-2 mt-8  rounded-full border-black border-2 hover:border-white bg-white hover:bg-[#ac7e93]
-    transition-transform duration-300 ease-in-out transform hover:scale-110 '>Shop Now
+    transition-transform duration-300 ease-in-out transform hover:scale-110 '><Link href="/winter">Shop Now</Link>
     </button>
         </div>
             </div>
@@ -99,7 +100,7 @@ const Winter = () => {
           <p className=" text-white text-[15px] font-semibold font-['Manrope'] leading-relaxed tracking-tight py-6">Revamp your look with our contemporary mens fashion, where comfort meets style. Elevate your confidence, one outfit at a time.</p>
 
           <button className=' text-[#4A3D2E] hover:text-white font-[Poppins] px-6 p-2 mt-8  rounded-full border-black border-2 hover:border-white bg-white hover:bg-[#ac7e93]
-    transition-transform duration-300 ease-in-out transform hover:scale-110 '>Shop Now
+    transition-transform duration-300 ease-in-out transform hover:scale-110 '><Link href="/winter">Shop Now</Link>
     </button>
         </div>
             </div>

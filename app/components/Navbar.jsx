@@ -8,9 +8,9 @@ import Link from 'next/link';
 const Navbar = () => {
     const Links = [
         { name: "Home", link: "/" },
-        { name: "About us", link: "/" },
-        { name: "Wedding collections", link: "/wedding" },
-        { name: "Winter collections", link: "/winter" },
+        { name: "About us", link: "/about" },
+        { name: "Wedding collections", link: "#wedding" },
+        { name: "Winter collections", link: "#winter" },
         { name: "Shop now", link: "/reduxshop" },
     ];
 

@@ -11,18 +11,18 @@ const Slider = () => {
             <div className='flex gap-6'>
                 {/* first-slide */}
                
-                    <div>
+                    <div className='w-[200px] md:w-auto pl-6'>
                     <Image
   src="/images/slide/slide-1.png"
   alt="deal-image"
-  width={500} height={800} className='w-full' />
+  width={500} height={800} className='w-full'/>
                     </div>
  
              
 
                   {/* 2nd-slide */}
                   
-                    <div>
+                    <div className='w-[200px] md:w-auto'>
                     <Image
   src="/images/slide/slide-2.png"
   alt="deal-image"
@@ -33,7 +33,7 @@ const Slider = () => {
 
                   {/* 3rd-slide */}
                 
-                    <div>
+                    <div className='w-[200px] md:w-auto'>
                     <Image
   src="/images/slide/slide-3.png"
   alt="deal-image"
@@ -44,7 +44,7 @@ const Slider = () => {
 
                   {/* 4th-slide */}
                  
-                    <div>
+                    <div className='w-[200px] md:w-auto'>
                     <Image
   src="/images/slide/slide-4.png"
   alt="deal-image"
@@ -55,7 +55,7 @@ const Slider = () => {
 
   {/* 5th-slide */}
  
-                    <div>
+                    <div className='w-[200px] md:w-auto'>
                     <Image
   src="/images/slide/slide-5.png"
   alt="deal-image"

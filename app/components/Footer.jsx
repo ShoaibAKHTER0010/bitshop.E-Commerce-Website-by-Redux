@@ -10,7 +10,7 @@ const Footer = () => {
                 {/* first-div */}
                 <div className='bg-white py-1 px-16 shadow-xl -mt-10 lower-div border-2 border-slate-400 rounded-xl'>
                     <p className="text-center text-[#232323] text-base font-semibold font-['Inter'] capitalize leading-[50px]">
-                    Follow us on Instagram: @mainplume/fashion
+                    Follow us on Instagram: @bitshop/fashion
                     </p>
                 </div>
 
@@ -22,11 +22,11 @@ const Footer = () => {
                         </li>
 
                         <li className='hover:underline underline-offset-4'>
-                            <Link href="">About us</Link>
+                            <Link href="/about">About us</Link>
                         </li>
 
                         <li className='hover:underline underline-offset-4'>
-                            <Link href="">Discover new</Link>
+                            <Link href="#discover">Discover new</Link>
                         </li>
 
                         <li className='hover:underline underline-offset-4'>
@@ -37,7 +37,7 @@ const Footer = () => {
                 </div>
                 {/* third div */}
                 <div className='py-4'>
-                <p className="text-[#2c2c2c] text-sm font-normal font-['Inter'] leading-7">© Copyright 2021, All Rights Reserved</p>
+                <p className="text-[#2c2c2c] text-sm font-normal font-['Inter'] leading-7">© Copyright 2024, All Rights Reserved</p>
                 </div>
 
             </div>

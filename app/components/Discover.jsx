@@ -4,7 +4,7 @@ import React from 'react'
 
 const Discover = () => {
   return (
-    <section className='w-full py-10 px-'>
+    <section className='w-full py-10 px-4 ' id='discover'>
         <main className='mx-auto max-w-7xl '>
             {/* heading section */}
             <div className="w-full text-[#4A3D2E] text-center text-[35px] md:text-[45px] font-extrabold font-['Manrope'] leading-[35px] md:leading-[50px] py-16">

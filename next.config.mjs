@@ -2,6 +2,7 @@
 export default {
   images: {
     domains: ['placeimg.com'],
+    domains: ['via.placeholder.com'],
     remotePatterns: [
       {
         protocol: 'https',
