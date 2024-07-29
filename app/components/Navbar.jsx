@@ -26,7 +26,7 @@ const Navbar = () => {
         <div className='w-full bg-[#EFDCC7] border-b-2 border-slate-400'>
             <div className='md:flex items-center justify-between max-w-7xl'>
                 <div className="">
-                    <Image src="/images/bit/bit-logo.PNG" alt="logo" width={250} height={200} className='transition-transform duration-300 ease-in-out transform hover:scale-105 w-[150] md:w-[200] h-[100] md:h-[150]' />
+                    <Image src="/images/bit/bit-logo.png" alt="logo" width={250} height={200} className='transition-transform duration-300 ease-in-out transform hover:scale-105 w-[150] md:w-[200] h-[100] md:h-[150]' />
                 </div>
 
                 <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-8 cursor-pointer md:hidden'>
