@@ -9,7 +9,7 @@ const Gifts = () => {
       <main className='mx-auto max-w-7xl px-6 md:px-4 ' >
 
          {/* heading section */}
-         <div className=" flex w-full text-[#4A3D2E] justify-center items-center text-[35px] md:text-[45px] font-extrabold font-['Manrope'] leading-[35px] md:leading-[50px] py-16 gap-4">
+         <div className=" flex flex-col md:flex-row w-full text-[#4A3D2E] justify-center items-center text-[35px] md:text-[45px] font-extrabold font-['Manrope'] leading-[35px] md:leading-[50px] py-16 gap-4">
 
          <div className="logo-2 ">
           
