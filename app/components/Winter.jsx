@@ -27,10 +27,10 @@ const Winter = () => {
     }}>
         {/* sub-child-1 */}
         <div className='w-1/2 px-2 md:px-6 py-8 md:py-12 text'>
-          <h2 className="text-white text-[30px] font-extrabold font-['Manrope'] leading-[32.70px]">Women</h2>
-          <p className=" text-white text-[15px] font-semibold font-['Manrope'] leading-relaxed tracking-tight py-6">Revamp your look with our contemporary mens fashion, where comfort meets style. Elevate your confidence, one outfit at a time.</p>
+          <h2 className="text-white text-[22px] md:text-[30px] font-extrabold font-['Manrope'] leading-[32.70px]">Women</h2>
+          <p className=" text-white text-[12px] md:text-[15px] font-semibold font-['Manrope'] leading-relaxed tracking-tight py-6">Revamp your look with our contemporary mens fashion, where comfort meets style. Elevate your confidence, one outfit at a time.</p>
 
-          <button className=' text-[#4A3D2E] hover:text-white font-[Poppins] px-6 p-2 mt-0 md:mt-4  rounded-full border-black border-2 hover:border-white bg-white hover:bg-[#ac7e93]
+          <button className=' text-[#4A3D2E] hover:text-white font-[Poppins] px-6 p-1 md:p-2 mt-0 md:mt-4  rounded-full border-black border-2 hover:border-white bg-white hover:bg-[#ac7e93]
     transition-transform duration-300 ease-in-out transform hover:scale-105 '><Link href="/winter">Shop Now</Link>
     </button>
         </div>
@@ -47,11 +47,11 @@ const Winter = () => {
     }}>
         {/* sub-child-1 */}
         <div className='w-1/2 px-2 md:px-6 py-8 md:py-12 text'>
-          <h2 className="text-white text-[30px] font-extrabold font-['Manrope'] leading-[32.70px]">Children </h2>
-          <p className=" text-white text-[15px] font-semibold font-['Manrope'] leading-relaxed tracking-tight py-6">Revamp your look with our contemporary mens fashion, where comfort meets style. Elevate your confidence, one outfit at a time.</p>
+          <h2 className="text-white text-[22px] md:text-[30px] font-extrabold font-['Manrope'] leading-[32.70px]">Children </h2>
+          <p className=" text-white text-[12px] md:text-[15px] font-semibold font-['Manrope'] leading-relaxed tracking-tight py-6">Revamp your look with our contemporary mens fashion, where comfort meets style. Elevate your confidence, one outfit at a time.</p>
 
         
-          <button className=' text-[#4A3D2E] hover:text-white font-[Poppins] px-6 p-2 mt-0 md:mt-4  rounded-full border-black border-2 hover:border-white bg-white hover:bg-[#ac7e93]
+          <button className=' text-[#4A3D2E] hover:text-white font-[Poppins] px-6 p-1 md:p-2 mt-0 md:mt-4  rounded-full border-black border-2 hover:border-white bg-white hover:bg-[#ac7e93]
     transition-transform duration-300 ease-in-out transform hover:scale-105 '><Link href="/winter">Shop Now</Link>
     </button>
         </div>
@@ -75,11 +75,11 @@ const Winter = () => {
     }}>
         {/* sub-child-1 */}
         <div className='w-1/2 px-2 md:px-6 py-8 md:py-12 text'>
-          <h2 className="text-white text-[30px] font-extrabold font-['Manrope'] leading-[32.70px]">Mens</h2>
-          <p className=" text-white text-[15px] font-semibold font-['Manrope'] leading-relaxed tracking-tight py-6">Revamp your look with our contemporary mens fashion, where comfort meets style. Elevate your confidence, one outfit at a time.</p>
+          <h2 className="text-white text-[22px] md:text-[30px] font-extrabold font-['Manrope'] leading-[32.70px]">Mens</h2>
+          <p className=" text-white text-[12px] md:text-[15px] font-semibold font-['Manrope'] leading-relaxed tracking-tight py-6">Revamp your look with our contemporary mens fashion, where comfort meets style. Elevate your confidence, one outfit at a time.</p>
 
         
-          <button className=' text-[#4A3D2E] hover:text-white font-[Poppins] px-6 p-2 mt-0 md:mt-4  rounded-full border-black border-2 hover:border-white bg-white hover:bg-[#ac7e93]
+          <button className=' text-[#4A3D2E] hover:text-white font-[Poppins] px-6 p-1 md:p-2 mt-0 md:mt-4  rounded-full border-black border-2 hover:border-white bg-white hover:bg-[#ac7e93]
     transition-transform duration-300 ease-in-out transform hover:scale-105 '><Link href="/winter">Shop Now</Link>
     </button>
         </div>
@@ -96,10 +96,10 @@ const Winter = () => {
     }}>
         {/* sub-child-1 */}
         <div className='w-1/2 px-2 md:px-6 py-8 md:py-12 text' >
-          <h2 className="text-white text-[30px] font-extrabold font-['Manrope'] leading-[32.70px]">Couples</h2>
-          <p className=" text-white text-[15px] font-semibold font-['Manrope'] leading-relaxed tracking-tight py-6">Revamp your look with our contemporary mens fashion, where comfort meets style. Elevate your confidence, one outfit at a time.</p>
+          <h2 className="text-white text-[22px] md:text-[30px] font-extrabold font-['Manrope'] leading-[32.70px]">Couples</h2>
+          <p className=" text-white text-[12px] md:text-[15px] font-semibold font-['Manrope'] leading-relaxed tracking-tight py-6">Revamp your look with our contemporary mens fashion, where comfort meets style. Elevate your confidence, one outfit at a time.</p>
 
-          <button className=' text-[#4A3D2E] hover:text-white font-[Poppins] px-6 p-2 mt-0 md:mt-4  rounded-full border-black border-2 hover:border-white bg-white hover:bg-[#ac7e93]
+          <button className=' text-[#4A3D2E] hover:text-white font-[Poppins] px-6 p-1 md:p-2 mt-0 md:mt-4  rounded-full border-black border-2 hover:border-white bg-white hover:bg-[#ac7e93]
     transition-transform duration-300 ease-in-out transform hover:scale-105 '><Link href="/winter">Shop Now</Link>
     </button>
         </div>

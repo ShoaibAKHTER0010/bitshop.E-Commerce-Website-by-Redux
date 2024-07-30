@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import React from 'react'
 import Link from 'next/link';
+import Balancer from 'react-wrap-balancer'
 
 const Main = () => {
   return (
@@ -12,8 +13,8 @@ const Main = () => {
                 {/* first--div */}
                 <div className='w-full md:w-1/2 text-white py-6 md:py-10 lg:py-16 flex flex-col items-center md:items-start'>
                   {/* paragraph */}
-                 <div className=" text-center md:text-start text-[#4A3D2E] text-[45px] md:text-[52px] lg:text-[63px] font-extrabold font-['Manrope'] capitalize leading-[50px] md:leading-[65px] lg:leading-[82px] ">
-                 Dive into a world <br className='md:block' /> of <span className='inline-flex text-[#46382A]'>endless fashion</span> <br className='md:block' /> possibilities
+                 <div className=" text-center md:text-start text-[#4A3D2E] text-[40px] md:text-[52px] lg:text-[63px] font-extrabold font-['Manrope'] capitalize leading-[45px] md:leading-[65px] lg:leading-[82px] ">
+                <h2> <Balancer>Dive into a world of <span className='inline-flex text-[#46382A]'>endless fashion</span> <br className='md:block' /> possibilities</Balancer></h2>
                  </div>
                     <p className="text-[#4A3D2E] text-[14px] md:text-[19px] font-normal font-['Manrope'] leading-[22px] md:leading-[28px] lg:leading-[38px] py-10 text-center md:text-start">We Dive into a realm of endless fashion possibilities. Explore our diverse collections and redefine your style. Your fashion journey begins here</p>
 
