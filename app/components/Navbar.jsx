@@ -32,8 +32,8 @@ const Navbar = ({ products }) => {
                     <Image src="/images/bit/bit-logo.png" alt="logo" width={500} height={800} className='transition-transform duration-300 ease-in-out transform hover:scale-105 w-[150px] md:w-[250px] h-[100] md:h-[150]' />
                 </div>
 
-                <div onClick={() => setOpen(!open)} className='text-3xl absolute right-6 top-6 cursor-pointer md:hidden '>
-                    {open ? <IoMdClose size={32} /> : <IoMdMenu size={32} />}
+                <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-8 cursor-pointer -mt-4 md:hidden  z-50'>
+                    {open ? <IoMdClose size={40} /> : <IoMdMenu size={40} />}
                 </div>
 
                 <div className={`md:flex md:items-center md:pb-0 py-4 md:static absolute bg-[#EFDCC7] w-full md:w-auto pl-10 md:pl-3 transition-all duration-500 ease-in-out ${open ? 'top-16 opacity-100' : 'top-[-400px] opacity-0 md:opacity-100 md:top-0'}`}>
@@ -44,13 +44,16 @@ const Navbar = ({ products }) => {
                                 <a href={link.link} className='text-[#4A3D2E] transition ease-in-out hover:shadow-xl duration-200'>{link.name}</a>
                             </li>
                         ))}
-                        <div className=' pb-0 md:pb-4 py-6 md:py-0'>
+                        {/* shop-icon div */}
+                       <div className='flex'>
+                       <div className=' pb-0 md:pb-4 py-6 md:py-0'>
                         <Link href="/cartpage" passHref > 
         <FiShoppingCart size={30} color="green"  onClick={handleClick}
           className={`transform transition duration-200 ease-in-out ${clicked ? 'scale-90' : 'hover:scale-110'}`}>
             </FiShoppingCart> 
-      </Link>
-                        </div><span className='inline-flex -ml-10 text-xs text-red-700'>{productCount}</span>
+      </Link>    
+      </div>  <div className='inline-flex mt-9 md:mt-3  text-xs text-red-700'>{productCount}</div>
+                       </div>
                         <Button>
                             Get Started
                         </Button>
