@@ -4,8 +4,9 @@ import React, { useState } from 'react'
 import Button from './Navbtn';
 import { FiShoppingCart } from "react-icons/fi";
 import Link from 'next/link';
+import useProductCount from '../Customhooks';
 
-const Navbar = () => {
+const Navbar = ({ products }) => {
     const Links = [
         { name: "Home", link: "/" },
         { name: "About us", link: "/about" },
@@ -13,6 +14,8 @@ const Navbar = () => {
         { name: "Winter collections", link: "#winter" },
         { name: "Shop now", link: "/reduxshop" },
     ];
+
+    const productCount =useProductCount(products);
 
     const [open, setOpen] = useState(false);
 
@@ -41,13 +44,13 @@ const Navbar = () => {
                                 <a href={link.link} className='text-[#4A3D2E] transition ease-in-out hover:shadow-xl duration-200'>{link.name}</a>
                             </li>
                         ))}
-                        <div className='pb-0 md:pb-4 py-6 md:py-0'>
-                        <Link href="/cartpage" passHref >
+                        <div className=' pb-0 md:pb-4 py-6 md:py-0'>
+                        <Link href="/cartpage" passHref > 
         <FiShoppingCart size={30} color="green"  onClick={handleClick}
           className={`transform transition duration-200 ease-in-out ${clicked ? 'scale-90' : 'hover:scale-110'}`}>
             </FiShoppingCart> 
       </Link>
-                        </div>
+                        </div><span className='inline-flex -ml-10 text-xs text-red-700'>{productCount}</span>
                         <Button>
                             Get Started
                         </Button>
