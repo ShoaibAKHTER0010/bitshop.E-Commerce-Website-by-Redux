@@ -32,8 +32,8 @@ const Navbar = ({ products }) => {
                     <Image src="/images/bit/bit-logo.png" alt="logo" width={500} height={800} className='transition-transform duration-300 ease-in-out transform hover:scale-105 w-[150px] md:w-[250px] h-[100] md:h-[150]' />
                 </div>
 
-                <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-8 cursor-pointer -mt-4 md:hidden  z-50'>
-                    {open ? <IoMdClose size={40} /> : <IoMdMenu size={40} />}
+                <div onClick={() => setOpen(!open)} className='text-3xl absolute right-6 top-6 cursor-pointer  md:hidden  z-50'>
+                    {open ? <IoMdClose size={32} /> : <IoMdMenu size={32} />}
                 </div>
 
                 <div className={`md:flex md:items-center md:pb-0 py-4 md:static absolute bg-[#EFDCC7] w-full md:w-auto pl-10 md:pl-3 transition-all duration-500 ease-in-out ${open ? 'top-16 opacity-100' : 'top-[-400px] opacity-0 md:opacity-100 md:top-0'}`}>
