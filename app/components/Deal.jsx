@@ -1,6 +1,7 @@
 import React from 'react'
 import Timer from './timer'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Deal = () => {
   return (
@@ -20,8 +21,7 @@ const Deal = () => {
                 {/* button  */}
                <div>
                  <button className='text-[#232323] px-16 py-3 text-base font-bold bg-slate-50 hover:bg-[#B0B0B0] rounded-xl border-slate-200 border-2'>
-                    Shop now
-                </button>
+                 <Link href="/reduxshop">Shop Now</Link>                </button>
                </div>
                 </div>
 
