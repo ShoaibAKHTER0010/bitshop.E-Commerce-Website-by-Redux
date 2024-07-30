@@ -23,13 +23,13 @@ const Navbar = () => {
     };
 
     return (
-        <div className='w-full bg-[#EFDCC7] border-b-2 border-slate-400'>
+        <div className='w-full bg-[#EFDCC7] border-b-2 border-slate-400 lower-div'>
             <div className='md:flex items-center justify-between max-w-7xl'>
                 <div className="">
                     <Image src="/images/bit/bit-logo.png" alt="logo" width={500} height={800} className='transition-transform duration-300 ease-in-out transform hover:scale-105 w-[150px] md:w-[250px] h-[100] md:h-[150]' />
                 </div>
 
-                <div onClick={() => setOpen(!open)} className='text-3xl absolute right-7 top-7 cursor-pointer md:hidden '>
+                <div onClick={() => setOpen(!open)} className='text-3xl absolute right-6 top-6 cursor-pointer md:hidden '>
                     {open ? <IoMdClose size={32} /> : <IoMdMenu size={32} />}
                 </div>
 

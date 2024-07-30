@@ -28,7 +28,7 @@ const CartPage = () => {
   };
 
   return (
-    <div className=" mx-auto  flex flex-col justify-center items-center h-[100%]">
+    <div className=" mx-auto  flex flex-col justify-center items-center h-[100%] upper-div">
       <Navbar/>
       <h1 className="text-4xl font-bold text-center text-gray-800 py-10">Store Cart 🛒</h1>
       <div className='px-6'>
@@ -37,11 +37,11 @@ const CartPage = () => {
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {cartItems.map((item) => (
-              <div key={item.id} className="bg-white p-6 rounded-lg shadow-md">
-                <Image src={item.image} alt={item.title} width={500} height={800} className="h-40 w-full object-contain mb-4" />
-                <h2 className="text-xl font-semibold mb-2">{item.title}</h2>
-                <p className="text-gray-600 mb-4">{item.description}</p>
-                <p className="text-lg font-bold mb-4">${item.price}</p>
+              <div key={item.id} className="bg-white p-6 rounded-lg shadow-md border-2 border-slate-400">
+                <Image src={item.image} alt={item.title} width={500} height={800} className="h-40 md:h-48 w-48 md:w-full object-contain mb-4" />
+                <h2 className="text-sm md:text-xl font-semibold mb-2">{item.title}</h2>
+                <p className="text-gray-600 mb-4 leading-tight">{item.description}</p>
+                <p className=" text-sm md:text-lg font-bold mb-4">${item.price}</p>
                 <button 
                   className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition duration-300"
                   onClick={ handleRemoveItem }

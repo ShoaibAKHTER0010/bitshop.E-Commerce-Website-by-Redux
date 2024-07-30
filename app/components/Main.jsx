@@ -22,7 +22,7 @@ const Main = () => {
                     <div className='w-full flex flex-col md:flex-row gap-6 md:gap-12 pt-28  md:pt-10 pr-12 md:pr-0'>
                       {/* button--1 */}
                     <button className=' text-white font-[Poppins] px-12 md:px-10 lg:px-10 py-3  md:py-2 lg:py-3  bg-[#4A3D2E] rounded-full hover:border-black hover:border-2 
-    transition-transform duration-200 ease-in-out transform hover:scale-105 ml-8 md:ml-0 leading-8 md:leading-tight lg:leading-8'><Link href="/cartpage">Explore Now</Link>
+    transition-transform duration-200 ease-in-out transform hover:scale-105 ml-8 md:ml-0 leading-8 md:leading-tight lg:leading-8'><Link href="/reduxshop">Explore Now</Link>
     </button>
 
       {/* button--2 */}
