@@ -8,8 +8,8 @@ const Footer = () => {
             {/* main-div */}
             <div className=' flex flex-col justify-center items-center gap-8'>
                 {/* first-div */}
-                <div className='bg-white py-1 px-16 shadow-xl -mt-10 lower-div border-2 border-slate-400 rounded-xl'>
-                    <p className="text-center text-[#232323] text-base font-semibold font-['Inter'] capitalize leading-[50px]">
+                <div className='bg-white py-1 px-4 md:px-16 shadow-xl -mt-5 md:-mt-8 lower-div border-2 border-slate-400 rounded-xl'>
+                    <p className="text-center text-[#232323] text-base font-semibold font-['Inter'] capitalize leading-[25px] md:leading-[50px]">
                     Follow us on Instagram: @bitshop/fashion
                     </p>
                 </div>

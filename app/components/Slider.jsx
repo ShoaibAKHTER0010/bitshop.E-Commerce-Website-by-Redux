@@ -11,7 +11,7 @@ const Slider = () => {
             <div className='flex gap-6'>
                 {/* first-slide */}
                
-                    <div className='w-[200px] md:w-auto pl-6'>
+                    <div className='w-[200px] md:w-auto '>
                     <Image
   src="/images/slide/slide-1.png"
   alt="deal-image"
